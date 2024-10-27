@@ -22,7 +22,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    /* background-color: black; */
     z-index: 999;
     /* high z-index content doesnt go through header */
 }
