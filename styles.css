@@ -40,6 +40,11 @@ header .logo:hover{
     opacity: 1;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 header ul{
     list-style: none;
     display: flex;
@@ -133,7 +138,7 @@ ul li:hover{
     gap: 1em;
 }
 
-.col-left{
+.col-right{
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -207,7 +212,7 @@ img{
 
 .section2{
     min-height: 100vh;
-    padding: 10% 12%;
+    padding: 10% 13%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -265,7 +270,55 @@ img{
     background-image: url(images/flat4.jpg);
 }
 
+/* -------------- ABOUT SECTION ---------------------------------------------------------------------- */
 
+.section3{
+    min-height: 100vh;
+    padding: 10% 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5em;
+}
+
+.box-about{
+    flex: 1;
+    border-radius: 1em;
+    display: flex;
+    gap: 1em;
+    transition: 0.2s ease;
+    /* border: 2px solid red; */
+    overflow: hidden;
+    /* height: 100vh;
+    width: 100vw; */
+}
+
+.bento-grid-about{
+    flex: 1;
+    height: 600px;
+    display: flex;
+    gap: 1em;
+    /* border: 2px red solid; */
+}
+
+
+
+.about-txt{
+    /* text-wrap: wrap; */
+    font-size: 1.2rem;
+    line-height: 2rem;
+    height: 75px;
+    padding: 10%;
+    text-align: left;
+    opacity: 0.8;
+    transition: 0.2 ease-in-out;
+}
+
+.col-left-about .about-txt:hover{
+    transform: scale(1.02);
+    opacity: 1;
+}
 
 /* scrolling */
 
