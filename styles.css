@@ -96,7 +96,7 @@ ul li:hover{
 }
 
 .gradient-txt{
-    background: linear-gradient(270deg, #2fffdc 10%, #87ff38 100%);
+    background: linear-gradient(270deg, darkblue 35%, silver 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -441,7 +441,7 @@ img{
 }
 
 
-/* ------------------------ Collab ---------------------------------------- */
+/* ------------------------ Partner ---------------------------------------- */
 
 
 .section6 {
@@ -478,7 +478,6 @@ img{
     border-radius: 50%;
     overflow: hidden;
 }
-
 
 /* scrolling */
 
